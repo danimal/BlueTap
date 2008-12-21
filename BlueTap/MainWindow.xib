@@ -64,12 +64,12 @@
 					<object class="IBUILabel" id="248425560">
 						<reference key="NSNextResponder" ref="380026005"/>
 						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{20, 252}, {280, 21}}</string>
+						<string key="NSFrame">{{20, 252}, {280, 33}}</string>
 						<reference key="NSSuperview" ref="380026005"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="IBUIText"/>
+						<string type="base64-UTF8" key="IBUIText">TG9hZGluZ+KApg</string>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica</string>
 							<double key="NSSize">2.400000e+01</double>
@@ -99,7 +99,7 @@
 					<object class="IBUIButton" id="880198617">
 						<reference key="NSNextResponder" ref="380026005"/>
 						<int key="NSvFlags">1316</int>
-						<string key="NSFrame">{{86, 103}, {147, 141}}</string>
+						<string key="NSFrame">{{86, 103}, {152, 141}}</string>
 						<reference key="NSSuperview" ref="380026005"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -110,11 +110,6 @@
 							<double key="NSSize">1.500000e+01</double>
 							<int key="NSfFlags">16</int>
 						</object>
-						<int key="IBUIButtonType">1</int>
-						<string key="IBUIHighlightedTitle"/>
-						<string key="IBUIDisabledTitle"/>
-						<string key="IBUISelectedTitle"/>
-						<string key="IBUINormalTitle"/>
 						<object class="NSColor" key="IBUIHighlightedTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -207,8 +202,8 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="669709138"/>
 							<reference ref="264331509"/>
-							<reference ref="880198617"/>
 							<reference ref="248425560"/>
+							<reference ref="880198617"/>
 						</object>
 						<reference key="parent" ref="957960031"/>
 					</object>
