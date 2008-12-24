@@ -1,0 +1,41 @@
+INSTALL INSTRUCTIONS:
+
+1. Download the zip file for your application from WideZero:
+
+http://widezero.com/grabbag/BlueTap-1.0.zip
+
+
+2. Open the zip file and you should see two files: 
+    - BlueTap.mobileprovision
+    - BlueTap.app
+    
+   i. Drag the BlueTap.mobileprovision file and drop 
+      it on your iTunes icon (usually in the doc at the bottom of 
+      your screen) or into iTunes itself. Choose to replace the existing 
+      copy of BlueTap if it asks.
+    
+   ii. Drag the BlueTap.app file and drop it on the iTunes icon as well.
+    
+   iii. Open iTunes and click on the Applications tab to check. You 
+        should see an icon with the name BlueTap. The icon will be for
+        a default application. Don't worry, this will be the correct icon
+        on your device.
+
+3. Connect your iPhone or iPod touch to your computer.
+
+   i. If it does not synch automatically and attempt to install your 
+      new beta app, click on its icon under Devices in the iTunes left 
+      hand column.
+    
+   ii. Once you have the device selected, Click on its Applications 
+       tab in iTunes. You should see the app you are beta testing in 
+       the grayed out list with the checkboxes. Make sure Sync 
+       applications is checked, and All applications is selected. (if 
+       you are using checkboxes, you need to make sure BlueTap is 
+       checked, along with all the other apps you want to keep on your 
+       device)
+
+   iii. Click the Sync button in the lower right and watch the top 
+        bar. You should eventually see it installing the beta 
+        application on your device.
+

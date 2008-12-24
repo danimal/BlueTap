@@ -16,6 +16,7 @@
 		310C66250EFE319600B992B7 /* BluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310C66240EFE319600B992B7 /* BluetoothManager.framework */; };
 		310C665E0EFE398700B992B7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 310C665C0EFE398700B992B7 /* icon.png */; };
 		310C665F0EFE398700B992B7 /* BluetoothLogo.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 310C665D0EFE398700B992B7 /* BluetoothLogo.tiff */; };
+		317D5E050F015C55000B775A /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 317D5E040F015C55000B775A /* dist.plist */; };
 		31D3C6450EFEC31200D60E23 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 31D3C6440EFEC31200D60E23 /* Default.png */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		310C66310EFE320C00B992B7 /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
 		310C665C0EFE398700B992B7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
 		310C665D0EFE398700B992B7 /* BluetoothLogo.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = BluetoothLogo.tiff; path = Images/BluetoothLogo.tiff; sourceTree = "<group>"; };
+		317D5E040F015C55000B775A /* dist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dist.plist; sourceTree = "<group>"; };
 		31D3C6440EFEC31200D60E23 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* BlueTap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueTap_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				310C665B0EFE396700B992B7 /* Images */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
+				317D5E040F015C55000B775A /* dist.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				310C665E0EFE398700B992B7 /* icon.png in Resources */,
 				310C665F0EFE398700B992B7 /* BluetoothLogo.tiff in Resources */,
 				31D3C6450EFEC31200D60E23 /* Default.png in Resources */,
+				317D5E050F015C55000B775A /* dist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +224,42 @@
 			};
 			name = Release;
 		};
+		31D3C6510EFF389E00D60E23 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = dist.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniel Weeks";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Weeks";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "93C8B3B8-F9F0-4A1E-9E4B-6D8CD5F7163D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "93C8B3B8-F9F0-4A1E-9E4B-6D8CD5F7163D";
+				SDKROOT = iphoneos2.2;
+			};
+			name = AdHoc;
+		};
+		31D3C6520EFF389E00D60E23 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = dist.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Daniel Weeks";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BlueTap_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = BlueTap;
+				PROVISIONING_PROFILE = "93C8B3B8-F9F0-4A1E-9E4B-6D8CD5F7163D";
+			};
+			name = AdHoc;
+		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -238,11 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Weeks";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9867DF82-AAFA-4EB4-A0C3-38379B5274F5";
 				SDKROOT = iphoneos2.2;
 			};
 			name = Release;
@@ -255,6 +297,7 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				31D3C6520EFF389E00D60E23 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -264,6 +307,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				31D3C6510EFF389E00D60E23 /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

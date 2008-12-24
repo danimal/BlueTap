@@ -12,12 +12,14 @@
     UIWindow *window;
     id btSharedInstance;
     UILabel *statusLabel;
+    UILabel *tagLabel;
     UIButton *switchButton;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) id btSharedInstance;
 @property (nonatomic, retain) IBOutlet UILabel *statusLabel;
+@property (nonatomic, retain) IBOutlet UILabel *tagLabel;
 @property (nonatomic, retain) IBOutlet UIButton *switchButton;
 
 - (IBAction)switchBluetoothStatus;

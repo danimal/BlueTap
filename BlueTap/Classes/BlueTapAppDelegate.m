@@ -13,10 +13,12 @@
 @synthesize window;
 @synthesize btSharedInstance;
 @synthesize statusLabel;
+@synthesize tagLabel;
 @synthesize switchButton;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application 
-{    
+{   
+    [tagLabel setText:[NSString stringWithFormat:@"danimal/WideZero Industries (%@%@)", [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"], [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"]]];
     btSharedInstance = [BluetoothManager sharedInstance];
     [self switchBluetoothStatus];
     // Override point for customization after application launch
@@ -42,6 +44,7 @@
 - (void)dealloc 
 {
     [statusLabel release];
+    [tagLabel release];
     [btSharedInstance release];
     [window release];
     [super dealloc];
