@@ -2,7 +2,7 @@ INSTALL INSTRUCTIONS:
 
 1. Download the zip file for your application from WideZero:
 
-http://widezero.com/download/BlueTap-1.0d.zip
+http://widezero.com/download/BlueTap-1.0e.zip
 
 2. Open the zip file and you should see the following:
     On Mac, two files:

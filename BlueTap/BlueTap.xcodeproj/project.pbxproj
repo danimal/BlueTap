@@ -237,7 +237,7 @@
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "4EDEE01F-5AFA-4D3D-928B-64CAAE663BCD";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4EDEE01F-5AFA-4D3D-928B-64CAAE663BCD";
-				SDKROOT = iphoneos2.2;
+				SDKROOT = iphonesimulator3.0;
 			};
 			name = AdHoc;
 		};
@@ -270,7 +270,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos2.2;
+				SDKROOT = iphonesimulator3.0;
 			};
 			name = Debug;
 		};
@@ -285,7 +285,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9867DF82-AAFA-4EB4-A0C3-38379B5274F5";
-				SDKROOT = iphoneos2.2;
+				SDKROOT = iphonesimulator3.0;
 			};
 			name = Release;
 		};
