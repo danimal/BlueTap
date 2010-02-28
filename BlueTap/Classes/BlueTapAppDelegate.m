@@ -3,7 +3,7 @@
 //  BlueTap
 //
 //  Created by Dan Weeks on 2008-12-20.
-//  Copyright WideZero 2008. All rights reserved.
+//  Released to the public domain, 2010-02-28
 //
 
 #import "BlueTapAppDelegate.h"

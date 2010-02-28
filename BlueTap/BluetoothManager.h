@@ -3,6 +3,8 @@
  *
  *
  *     class-dump is Copyright (C) 1997-1998, 2000-2001, 2004-2006 by Steve Nygard.
+ *
+ *  BlueTap was released to the public domain, 2010-02-28
  */
 
 #import <UIKit/UIKit.h>
