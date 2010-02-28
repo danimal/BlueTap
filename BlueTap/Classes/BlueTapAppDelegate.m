@@ -18,7 +18,7 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application 
 {   
-    [tagLabel setText:[NSString stringWithFormat:@"WideZero Industries (%@%@)", [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"], [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"]]];
+    [tagLabel setText:[NSString stringWithFormat:@"v%@", [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]]];
     btSharedInstance = [BluetoothManager sharedInstance];
     [self switchBluetoothStatus];
     // Override point for customization after application launch
