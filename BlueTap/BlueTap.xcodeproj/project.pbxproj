@@ -152,7 +152,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BlueTap" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -194,6 +201,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Weeks (3BS5GLYEMC)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -205,6 +213,7 @@
 				GCC_PREFIX_HEADER = BlueTap_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = BlueTap;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -212,6 +221,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Weeks";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -221,6 +231,8 @@
 				GCC_PREFIX_HEADER = BlueTap_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = BlueTap;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B9941167-DDA3-46B6-81FF-A223B8E4EF1F";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
