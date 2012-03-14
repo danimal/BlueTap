@@ -12,33 +12,40 @@
 
 @synthesize window;
 @synthesize btSharedInstance;
-@synthesize statusLabel;
+@synthesize statusSwitch;
 @synthesize tagLabel;
 @synthesize switchButton;
+@synthesize backgroundView;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application 
 {   
+    backgroundView.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"bright_squares.png"]];
     [tagLabel setText:[NSString stringWithFormat:@"v%@", [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]]];
     btSharedInstance = [BluetoothManager sharedInstance];
-    [self switchBluetoothStatus];
+    [self switchBluetoothStatus:self];
     // Override point for customization after application launch
     [window makeKeyAndVisible];
 }
 
-- (IBAction)switchBluetoothStatus
+- (IBAction)switchBluetoothStatus:(id)sender
 {
     //NSLog(@"powered: %@",([btSharedInstance powered] ? @"YES" : @"NO"));
     if ([btSharedInstance powered]) {
         [switchButton setEnabled:FALSE];
         [btSharedInstance setPowered:FALSE];
-        [statusLabel setText:[NSString stringWithFormat:@"Bluetooth Powered OFF"]];
+        [statusSwitch setOn:FALSE animated:TRUE];
         [switchButton setEnabled:TRUE];
     } else {
         [switchButton setEnabled:FALSE];
         [btSharedInstance setPowered:TRUE];
-        [statusLabel setText:[NSString stringWithFormat:@"Bluetooth Powered ON"]];
+        [statusSwitch setOn:TRUE animated:TRUE];
         [switchButton setEnabled:TRUE];
     }    
+}
+
+- (IBAction)onOffSwitch:(id)sender
+{
+    
 }
 
 - (void)dealloc 

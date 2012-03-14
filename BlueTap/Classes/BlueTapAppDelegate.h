@@ -18,10 +18,12 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) id btSharedInstance;
-@property (nonatomic, retain) IBOutlet UILabel *statusLabel;
+@property (nonatomic, retain) IBOutlet UISwitch *statusSwitch;
 @property (nonatomic, retain) IBOutlet UILabel *tagLabel;
 @property (nonatomic, retain) IBOutlet UIButton *switchButton;
+@property (nonatomic, retain) IBOutlet UIView *backgroundView;
 
-- (IBAction)switchBluetoothStatus;
+- (IBAction)switchBluetoothStatus:(id)sender;
+- (IBAction)onOffSwitch:(id)sender;
 @end
 

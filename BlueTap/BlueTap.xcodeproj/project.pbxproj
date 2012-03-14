@@ -18,6 +18,8 @@
 		310C665F0EFE398700B992B7 /* BluetoothLogo.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 310C665D0EFE398700B992B7 /* BluetoothLogo.tiff */; };
 		317D5E050F015C55000B775A /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 317D5E040F015C55000B775A /* dist.plist */; };
 		31D3C6450EFEC31200D60E23 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 31D3C6440EFEC31200D60E23 /* Default.png */; };
+		5743CF1F15113BA400C74F23 /* bluetooth.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5743CF1D15113BA400C74F23 /* bluetooth.pdf */; };
+		5743CF2015113BA400C74F23 /* bright_squares.png in Resources */ = {isa = PBXBuildFile; fileRef = 5743CF1E15113BA400C74F23 /* bright_squares.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		317D5E040F015C55000B775A /* dist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dist.plist; sourceTree = "<group>"; };
 		31D3C6440EFEC31200D60E23 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* BlueTap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueTap_Prefix.pch; sourceTree = "<group>"; };
+		5743CF1D15113BA400C74F23 /* bluetooth.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = bluetooth.pdf; path = Images/bluetooth.pdf; sourceTree = "<group>"; };
+		5743CF1E15113BA400C74F23 /* bright_squares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bright_squares.png; path = Images/bright_squares.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +122,8 @@
 		310C665B0EFE396700B992B7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5743CF1D15113BA400C74F23 /* bluetooth.pdf */,
+				5743CF1E15113BA400C74F23 /* bright_squares.png */,
 				31D3C6440EFEC31200D60E23 /* Default.png */,
 				310C665C0EFE398700B992B7 /* icon.png */,
 				310C665D0EFE398700B992B7 /* BluetoothLogo.tiff */,
@@ -182,6 +188,8 @@
 				310C665F0EFE398700B992B7 /* BluetoothLogo.tiff in Resources */,
 				31D3C6450EFEC31200D60E23 /* Default.png in Resources */,
 				317D5E050F015C55000B775A /* dist.plist in Resources */,
+				5743CF1F15113BA400C74F23 /* bluetooth.pdf in Resources */,
+				5743CF2015113BA400C74F23 /* bright_squares.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
