@@ -48,14 +48,6 @@
     
 }
 
-- (void)dealloc 
-{
-    [statusLabel release];
-    [tagLabel release];
-    [btSharedInstance release];
-    [window release];
-    [super dealloc];
-}
 
 
 @end
