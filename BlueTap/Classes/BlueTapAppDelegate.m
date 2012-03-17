@@ -22,14 +22,14 @@
     backgroundView.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"bright_squares.png"]];
     [tagLabel setText:[NSString stringWithFormat:@"v%@", [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]]];
     btSharedInstance = [BluetoothManager sharedInstance];
-    [self switchBluetoothStatus:self];
     // Override point for customization after application launch
     [window makeKeyAndVisible];
+    [self switchBluetoothStatus:self];
 }
 
 - (IBAction)switchBluetoothStatus:(id)sender
 {
-    //NSLog(@"powered: %@",([btSharedInstance powered] ? @"YES" : @"NO"));
+    NSLog(@"powered: %@",([btSharedInstance powered] ? @"YES" : @"NO"));
     if ([btSharedInstance powered]) {
         [switchButton setEnabled:FALSE];
         [btSharedInstance setPowered:FALSE];
@@ -45,7 +45,8 @@
 
 - (IBAction)onOffSwitch:(id)sender
 {
-    
+    NSLog(@"UISwitch thrown:\n state: %@\n powered: %@", (statusSwitch.on ? @"YES" : @"NO"), ([btSharedInstance powered] ? @"YES" : @"NO"));
+    [self switchBluetoothStatus:sender];
 }
 
 

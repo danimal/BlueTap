@@ -14,11 +14,13 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		310C66250EFE319600B992B7 /* BluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310C66240EFE319600B992B7 /* BluetoothManager.framework */; };
-		310C665E0EFE398700B992B7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 310C665C0EFE398700B992B7 /* icon.png */; };
-		310C665F0EFE398700B992B7 /* BluetoothLogo.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 310C665D0EFE398700B992B7 /* BluetoothLogo.tiff */; };
 		317D5E050F015C55000B775A /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 317D5E040F015C55000B775A /* dist.plist */; };
 		31D3C6450EFEC31200D60E23 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 31D3C6440EFEC31200D60E23 /* Default.png */; };
-		5743CF1F15113BA400C74F23 /* bluetooth.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5743CF1D15113BA400C74F23 /* bluetooth.pdf */; };
+		37AD87BA151547E90008C242 /* bluetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AD87B9151547E90008C242 /* bluetooth.png */; };
+		37AD87BE15154BC70008C242 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AD87BB15154BC70008C242 /* Icon-72.png */; };
+		37AD87BF15154BC70008C242 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AD87BC15154BC70008C242 /* Icon.png */; };
+		37AD87C015154BC70008C242 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AD87BD15154BC70008C242 /* Icon@2x.png */; };
+		37AD87C215154CE00008C242 /* bluetooth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AD87C115154CE00008C242 /* bluetooth@2x.png */; };
 		5743CF2015113BA400C74F23 /* bright_squares.png in Resources */ = {isa = PBXBuildFile; fileRef = 5743CF1E15113BA400C74F23 /* bright_squares.png */; };
 /* End PBXBuildFile section */
 
@@ -33,12 +35,14 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		310C66240EFE319600B992B7 /* BluetoothManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BluetoothManager.framework; path = System/Library/PrivateFrameworks/BluetoothManager.framework; sourceTree = SDKROOT; };
 		310C66310EFE320C00B992B7 /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
-		310C665C0EFE398700B992B7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
-		310C665D0EFE398700B992B7 /* BluetoothLogo.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = BluetoothLogo.tiff; path = Images/BluetoothLogo.tiff; sourceTree = "<group>"; };
 		317D5E040F015C55000B775A /* dist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dist.plist; sourceTree = "<group>"; };
 		31D3C6440EFEC31200D60E23 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* BlueTap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueTap_Prefix.pch; sourceTree = "<group>"; };
-		5743CF1D15113BA400C74F23 /* bluetooth.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = bluetooth.pdf; path = Images/bluetooth.pdf; sourceTree = "<group>"; };
+		37AD87B9151547E90008C242 /* bluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluetooth.png; path = Images/bluetooth.png; sourceTree = "<group>"; };
+		37AD87BB15154BC70008C242 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Images/Icon-72.png"; sourceTree = "<group>"; };
+		37AD87BC15154BC70008C242 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		37AD87BD15154BC70008C242 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Images/Icon@2x.png"; sourceTree = "<group>"; };
+		37AD87C115154CE00008C242 /* bluetooth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bluetooth@2x.png"; path = "Images/bluetooth@2x.png"; sourceTree = "<group>"; };
 		5743CF1E15113BA400C74F23 /* bright_squares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bright_squares.png; path = Images/bright_squares.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,11 +126,13 @@
 		310C665B0EFE396700B992B7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				5743CF1D15113BA400C74F23 /* bluetooth.pdf */,
+				37AD87BB15154BC70008C242 /* Icon-72.png */,
+				37AD87BC15154BC70008C242 /* Icon.png */,
+				37AD87BD15154BC70008C242 /* Icon@2x.png */,
+				37AD87B9151547E90008C242 /* bluetooth.png */,
+				37AD87C115154CE00008C242 /* bluetooth@2x.png */,
 				5743CF1E15113BA400C74F23 /* bright_squares.png */,
 				31D3C6440EFEC31200D60E23 /* Default.png */,
-				310C665C0EFE398700B992B7 /* icon.png */,
-				310C665D0EFE398700B992B7 /* BluetoothLogo.tiff */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -184,12 +190,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				310C665E0EFE398700B992B7 /* icon.png in Resources */,
-				310C665F0EFE398700B992B7 /* BluetoothLogo.tiff in Resources */,
 				31D3C6450EFEC31200D60E23 /* Default.png in Resources */,
 				317D5E050F015C55000B775A /* dist.plist in Resources */,
-				5743CF1F15113BA400C74F23 /* bluetooth.pdf in Resources */,
 				5743CF2015113BA400C74F23 /* bright_squares.png in Resources */,
+				37AD87BA151547E90008C242 /* bluetooth.png in Resources */,
+				37AD87BE15154BC70008C242 /* Icon-72.png in Resources */,
+				37AD87BF15154BC70008C242 /* Icon.png in Resources */,
+				37AD87C015154BC70008C242 /* Icon@2x.png in Resources */,
+				37AD87C215154CE00008C242 /* bluetooth@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +221,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Weeks (3BS5GLYEMC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -226,6 +234,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = BlueTap;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -235,7 +244,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Weeks";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -246,7 +255,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = BlueTap;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B9941167-DDA3-46B6-81FF-A223B8E4EF1F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;

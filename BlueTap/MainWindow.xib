@@ -57,6 +57,7 @@
 								<string key="NSFrame">{{20, 20}, {280, 55}}</string>
 								<reference key="NSSuperview" ref="644508875"/>
 								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="880198617"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -112,25 +113,26 @@
 							<object class="IBUIButton" id="880198617">
 								<reference key="NSNextResponder" ref="644508875"/>
 								<int key="NSvFlags">1316</int>
-								<string key="NSFrame">{{20, 83}, {280, 241}}</string>
+								<string key="NSFrame">{{32, 102}, {256, 256}}</string>
 								<reference key="NSSuperview" ref="644508875"/>
 								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="551505973"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<object class="NSColor" key="IBUIHighlightedTitleColor">
-									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MSAxIDEAA</bytes>
+									<int key="NSColorSpace">3</int>
+									<bytes key="NSWhite">MQA</bytes>
 								</object>
 								<object class="NSColor" key="IBUINormalTitleColor">
 									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MC4xOTYwNzg0MyAwLjMwOTgwMzkzIDAuNTIxNTY4NjYAA</bytes>
+									<bytes key="NSRGB">MC4xOTYwNzg0MzE0IDAuMzA5ODAzOTIxNiAwLjUyMTU2ODYyNzUAA</bytes>
 								</object>
 								<object class="NSColor" key="IBUINormalTitleShadowColor">
 									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MAA</bytes>
+									<bytes key="NSWhite">MC41AA</bytes>
 								</object>
 								<object class="NSCustomResource" key="IBUIHighlightedImage" id="333066717">
 									<string key="NSClassName">NSImage</string>
@@ -138,25 +140,27 @@
 								</object>
 								<reference key="IBUIDisabledImage" ref="333066717"/>
 								<reference key="IBUISelectedImage" ref="333066717"/>
-								<reference key="IBUINormalImage" ref="333066717"/>
+								<object class="NSCustomResource" key="IBUINormalImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">bluetooth.png</string>
+								</object>
 								<object class="IBUIFontDescription" key="IBUIFontDescription">
-									<string key="name">Helvetica-Bold</string>
-									<string key="family">Helvetica</string>
-									<int key="traits">2</int>
-									<double key="pointSize">15</double>
+									<int key="type">2</int>
+									<int key="size">2</int>
 								</object>
 								<object class="NSFont" key="IBUIFont">
 									<string key="NSName">Helvetica-Bold</string>
-									<double key="NSSize">15</double>
+									<double key="NSSize">18</double>
 									<int key="NSfFlags">16</int>
 								</object>
 							</object>
 							<object class="IBUISwitch" id="551505973">
 								<reference key="NSNextResponder" ref="644508875"/>
 								<int key="NSvFlags">1316</int>
-								<string key="NSFrame">{{106, 332}, {94, 27}}</string>
+								<string key="NSFrame">{{106, 366}, {94, 27}}</string>
 								<reference key="NSSuperview" ref="644508875"/>
 								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="264331509"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -168,6 +172,7 @@
 						<string key="NSFrame">{{0, 20}, {320, 460}}</string>
 						<reference key="NSSuperview" ref="380026005"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="669709138"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -183,6 +188,7 @@
 				<string key="NSFrameSize">{320, 480}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
+				<reference key="NSNextKeyView" ref="644508875"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MC44MDAwMDAwMSAwLjgwMDAwMDAxIDAuODAwMDAwMDEAA</bytes>
@@ -246,12 +252,12 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">switchBluetoothStatus</string>
+						<string key="label">switchBluetoothStatus:</string>
 						<reference key="source" ref="880198617"/>
 						<reference key="destination" ref="664661524"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">17</int>
+					<int key="connectionID">26</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -304,9 +310,9 @@
 						<reference key="object" ref="644508875"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="551505973"/>
 							<reference ref="264331509"/>
 							<reference ref="669709138"/>
+							<reference ref="551505973"/>
 							<reference ref="880198617"/>
 						</object>
 						<reference key="parent" ref="380026005"/>
@@ -384,7 +390,7 @@
 				<reference key="dict.values" ref="957960031"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">25</int>
+			<int key="maxID">26</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -490,6 +496,10 @@
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
 			<integer value="528" key="NS.object.0"/>
 		</object>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
+			<real value="1296" key="NS.object.0"/>
+		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.InterfaceBuilder3</string>
 			<integer value="3000" key="NS.object.0"/>
@@ -497,8 +507,17 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">BluetoothLogo.tiff</string>
-			<string key="NS.object.0">{128, 128}</string>
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<object class="NSArray" key="dict.sortedKeys">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<string>BluetoothLogo.tiff</string>
+				<string>bluetooth.png</string>
+			</object>
+			<object class="NSArray" key="dict.values">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<string>{16, 16}</string>
+				<string>{171, 238}</string>
+			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">1179</string>
 	</data>
